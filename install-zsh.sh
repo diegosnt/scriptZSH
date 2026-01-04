@@ -33,7 +33,7 @@ install_zsh() {
     echo -e "${GREEN}Instalando zsh...${NC}"
 
     case $OS in
-        ubuntu|debian|linuxmint|pop)
+        ubuntu|debian|linuxmint|pop|mx)
             sudo apt update
             sudo apt install -y zsh curl git
             ;;
@@ -115,7 +115,7 @@ install_fonts() {
 
     # Instalar fuentes según la distribución
     case $OS in
-        ubuntu|debian|linuxmint|pop)
+        ubuntu|debian|linuxmint|pop|mx)
             echo -e "${YELLOW}Instalando fonts-powerline y fontconfig...${NC}"
             sudo apt install -y fonts-powerline fontconfig
             ;;

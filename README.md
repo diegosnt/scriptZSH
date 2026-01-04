@@ -5,7 +5,7 @@ Script automatizado para instalar y configurar zsh con oh-my-zsh y los plugins m
 ## Características
 
 ### Detección automática de distribución
-- Ubuntu/Debian/Linux Mint/Pop!_OS
+- Ubuntu/Debian/Linux Mint/Pop!_OS/MX Linux
 - Fedora/RHEL/CentOS
 - Arch/Manjaro
 - openSUSE
